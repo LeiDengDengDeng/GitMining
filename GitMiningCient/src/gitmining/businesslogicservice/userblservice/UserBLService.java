@@ -1,8 +1,8 @@
-package gimining.businesslogicservice.userblservice;
+package gitmining.businesslogicservice.userblservice;
+
+import gitmining.vo.UserVO;
 
 import java.util.Iterator;
-
-import vo.UserVO;
 
 public interface UserBLService {
 

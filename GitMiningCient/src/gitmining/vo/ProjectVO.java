@@ -1,4 +1,4 @@
-package vo;
+package gitmining.vo;
 
 public class ProjectVO {
 
