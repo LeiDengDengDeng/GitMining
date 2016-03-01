@@ -1,4 +1,4 @@
-package gitmining.business.projectbl;
+package gitmining.businesslogic.projectbl;
 
 import gitmining.vo.ProjectVO;
 

@@ -1,6 +1,6 @@
 package gitmining.businesslogicservice.projectblservice;
 
-import gitmining.business.projectbl.ProjectSortingStrategy;
+import gitmining.businesslogic.projectbl.ProjectSortingStrategy;
 import gitmining.vo.ProjectVO;
 
 import java.util.Iterator;
