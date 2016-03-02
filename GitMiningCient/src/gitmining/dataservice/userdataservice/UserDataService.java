@@ -8,6 +8,6 @@ public interface UserDataService {
 	
 	public UserPO getUserPO(String name);
 
-	public Iterator<UserPO> getAllProjectPO();
+	public Iterator<UserPO> getAllProjectPO(String name);
 
 }

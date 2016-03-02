@@ -23,7 +23,7 @@ public class UserPO {
 	private String blog;
 	private String location;
 	private String email;
-	private String hireable;
+	private boolean hireable;
 	private String bio;
 	private int public_repos;
 	private int public_gists;
@@ -55,7 +55,7 @@ public class UserPO {
        		String blog,
        		String location,
        		String email,
-       		String hireable,
+       		boolean hireable,
        		String bio,
        		int public_repos,
        		int public_gists,
@@ -235,10 +235,10 @@ public class UserPO {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getHireable() {
+	public boolean getHireable() {
 		return hireable;
 	}
-	public void setHireable(String hireable) {
+	public void setHireable(boolean hireable) {
 		this.hireable = hireable;
 	}
 	public String getBio() {

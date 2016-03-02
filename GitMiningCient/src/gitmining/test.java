@@ -22,16 +22,23 @@ public class test {
 	 */
 	public static void main(String[] args) {
 		// TODO 自动生成的方法存根
-		//ProjectDataService projectDataService = new ProjectData();
-		//projectDataService.getProjectPO("rubiniu", "rubinius");
+//		ProjectDataService projectDataService = new ProjectData();
+//		projectDataService.getProjectPO("rubinius", "rubinius");
+//		projectDataService.getProjectPO("timbertson", "mocktest");
+//		projectDataService.getAllProjectPO();
 		
 		UserDataService userDataService = new UserData();
-		userDataService.getUserPO("sdadsadwawds");
-		UserPO userPO = userDataService.getUserPO("rubinius");
-		System.out.println(userPO.getCompany());
-		System.out.println(userPO.getHireable());
-		System.out.println(userPO.getBio());
-		System.out.println(userPO.getEmail());
+//		userDataService.getUserPO("gitextensions");
+//		UserPO userPO = userDataService.getUserPO("gfxmonk");
+//		UserPO userPO = userDataService.getUserPO("aasm");"gfxmonk/mocktest"第533个（从0开始数）
+//		UserPO userPO2 = userDataService.getUserPO("gfxmonkssssssssssssssssssssss");
+//		if(userPO.getCompany()==null)System.out.println("asdf");
+//		System.out.println(userPO.getCompany());
+//		System.out.println(userPO.getHireable());
+//		System.out.println(userPO.getBio());
+//		System.out.println(userPO.getEmail());
+		
+		userDataService.getAllProjectPO("ab");
 	}
 
 }
