@@ -5,9 +5,9 @@
  */
 package gitmining;
 
-import gitmining.data.projectdata.ProjectData;
+import gitmining.data.repositorydata.RepositoryData;
 import gitmining.data.userdata.UserData;
-import gitmining.dataservice.projectdataservice.ProjectDataService;
+import gitmining.dataservice.repositorydataservice.RepositoryDataService;
 import gitmining.dataservice.userdataservice.UserDataService;
 import gitmining.po.UserPO;
 

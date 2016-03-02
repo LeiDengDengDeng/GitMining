@@ -1,6 +1,6 @@
 package gitmining.vo;
 
-public class ProjectVO {
+public class RepositoryVO {
 	private String name;
 	private String language;
 	private String HTTPS;
@@ -13,7 +13,7 @@ public class ProjectVO {
 	private int issues;
 	private int pullrequests;
 	
-	public ProjectVO(String name, String language, String HTTPS, UserVO author,
+	public RepositoryVO(String name, String language, String HTTPS, UserVO author,
 			int commits, int branches, int releases, 
 			int contributors, int issues, int pullrequests){
 		this.name = name;

@@ -14,7 +14,7 @@ import org.json.JSONObject;
  * @author dell
  * 
  */
-public class ProjectPO {
+public class RepositoryPO {
 	private String authorName; // 作者名
 	private String projectName; // 项目名
 	private String language; // 项目使用语言
@@ -25,7 +25,7 @@ public class ProjectPO {
 	private String[] contributors; // 贡献者
 	private String lastUpdatedTime; // 最后更新时间
 
-	public ProjectPO(String owner, String repo) {
+	public RepositoryPO(String owner, String repo) {
 		String projectURL = "http://www.gitmining.net/api/repository/" + owner
 				+ "/" + repo;
 

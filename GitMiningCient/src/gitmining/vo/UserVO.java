@@ -11,8 +11,8 @@ public class UserVO {
 	private ArrayList<UserVO> Starred;
 	private ArrayList<UserVO> Following;//偶像
 
-	private ArrayList<ProjectVO> contributions;
-	private ArrayList<ProjectVO> repositories;
+	private ArrayList<RepositoryVO> contributions;
+	private ArrayList<RepositoryVO> repositories;
 	
 	
      public UserVO(String name, String address, String email, String jointime){
@@ -24,8 +24,8 @@ public class UserVO {
     	 Followers = new ArrayList<UserVO>();
     	 Starred = new ArrayList<UserVO>();
     	 Following = new ArrayList<UserVO>();
-    	 contributions = new ArrayList<ProjectVO>();
-    	 repositories = new ArrayList<ProjectVO>();
+    	 contributions = new ArrayList<RepositoryVO>();
+    	 repositories = new ArrayList<RepositoryVO>();
      }
 
      
@@ -78,17 +78,17 @@ public class UserVO {
 		this.Following = Following;
 	}
     
-	public ArrayList<ProjectVO> getContributions() {
+	public ArrayList<RepositoryVO> getContributions() {
 		return contributions;
 	}
-	public void setContributions(ArrayList<ProjectVO> contributions) {
+	public void setContributions(ArrayList<RepositoryVO> contributions) {
 		this.contributions = contributions;
 	}
     
-	public ArrayList<ProjectVO> getRepositories() {
+	public ArrayList<RepositoryVO> getRepositories() {
 		return repositories;
 	}
-	public void setRepositories(ArrayList<ProjectVO> repositories) {
+	public void setRepositories(ArrayList<RepositoryVO> repositories) {
 		this.repositories = repositories;
 	}
 }
