@@ -1,6 +1,6 @@
 package test.data;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import gitmining.data.repositorydata.RepositoryData;
 import gitmining.po.RepositoryPO;
 
@@ -24,6 +24,9 @@ public class RepositoryDataTest {
 		RepositoryPO po2 = projectData.getRepositoryPO("rubinius", "rubinius");
 		assertEquals(po2.getForks(), 588);
 		assertEquals(po2.getStars(), 2520);
+
+		// 时间问题待考虑
+		projectData.getAllRepositoryPO();
 	}
 
 }

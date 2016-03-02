@@ -4,8 +4,12 @@ import gitmining.vo.RepositoryVO;
 
 import java.util.Iterator;
 
-public class RepositorySortingByStar implements RepositorySortingStrategy {
+public class RepositorySortingByString implements RepositorySortingStrategy {
 	
+	public RepositorySortingByString(String searchContent){
+		
+	}
+
 	@Override
 	public Iterator<RepositoryVO> sort() {
 		return null;

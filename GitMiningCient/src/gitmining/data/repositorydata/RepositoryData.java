@@ -22,7 +22,8 @@ public class RepositoryData implements RepositoryDataService {
 
 	// 单件模式
 	public static RepositoryData getSingleton() {
-		return (repositoryData == null)? repositoryData = new RepositoryData() : repositoryData;
+		return (repositoryData == null) ? repositoryData = new RepositoryData()
+				: repositoryData;
 	}
 
 	// 待改 需要判断是否能找到
@@ -43,6 +44,7 @@ public class RepositoryData implements RepositoryDataService {
 			JSONArray ja = new JSONArray(
 					JsonDataAnalysis
 							.getDataString("http://www.gitmining.net/api/repository/names"));
+			System.out.println(ja.length());
 			for (int i = 0; i < ja.length(); i++) {
 				String[] info = ja.getString(i).split("/");
 				repositoryPOs.add(getRepositoryPO(info[0], info[1]));
