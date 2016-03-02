@@ -27,7 +27,6 @@ public class test {
 //		projectDataService.getProjectPO("timbertson", "mocktest");
 //		projectDataService.getAllProjectPO();
 		
-		UserDataService userDataService = new UserData();
 //		userDataService.getUserPO("gitextensions");
 //		UserPO userPO = userDataService.getUserPO("gfxmonk");
 //		UserPO userPO = userDataService.getUserPO("aasm");"gfxmonk/mocktest"第533个（从0开始数）
@@ -38,7 +37,7 @@ public class test {
 //		System.out.println(userPO.getBio());
 //		System.out.println(userPO.getEmail());
 		
-		userDataService.getAllProjectPO("ab");
+		UserData.getInstance().getAllProjectPO("gfx");
 	}
 
 }

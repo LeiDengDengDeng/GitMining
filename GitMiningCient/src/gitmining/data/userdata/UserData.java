@@ -15,6 +15,18 @@ import gitmining.dataservice.userdataservice.UserDataService;
 import gitmining.po.UserPO;
 
 public class UserData implements UserDataService{
+
+	private static UserDataService userData = null;
+
+	private UserData() {
+	}
+
+	// 单件模式
+	public static UserDataService getInstance() {
+		if(userData == null)
+			userData = new UserData();
+		return userData;
+	}
 	
 	@Override
 	public UserPO getUserPO(String name) {

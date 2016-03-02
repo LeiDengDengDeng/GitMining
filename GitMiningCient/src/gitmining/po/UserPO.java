@@ -1,9 +1,9 @@
 package gitmining.po;
 
 public class UserPO {
-	private String login;
+	private String login;//登陆名
 	private String id;
-	private String avatar_url;
+	private String avatar_url;//头像
 	private String gravatar_id;
 	private String url;
 	private String html_url;
@@ -18,12 +18,12 @@ public class UserPO {
 	private String received_events_url;
 	private String type;
 	private boolean site_admin;
-	private String name;
+	private String name;//真实姓名
 	private String company;
 	private String blog;
 	private String location;
 	private String email;
-	private boolean hireable;
+	private boolean hireable;//是否可租
 	private String bio;
 	private int public_repos;
 	private int public_gists;
