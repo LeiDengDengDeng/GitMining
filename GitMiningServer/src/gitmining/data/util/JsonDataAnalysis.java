@@ -14,8 +14,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONException;
 
-@SuppressWarnings("deprecation")
-
 public class JsonDataAnalysis {
 
 	/**
@@ -57,7 +55,6 @@ public class JsonDataAnalysis {
 			throws ClientProtocolException, IOException, JSONException,
 			ParseException {
 		// 创建HttpClient实例
-		@SuppressWarnings({ "resource" })
 		HttpClient httpclient = new DefaultHttpClient();
 		// 创建Get方法实例
 		HttpGet httpgets = new HttpGet(URL);
