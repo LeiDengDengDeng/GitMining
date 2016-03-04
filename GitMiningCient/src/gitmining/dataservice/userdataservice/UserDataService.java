@@ -6,8 +6,8 @@ import java.util.Iterator;
 
 public interface UserDataService {
 	
-	public UserPO getUserPO(String name);
+	public UserPO getUserPO(String login);
 
-	public Iterator<UserPO> getAllProjectPO(String name);
+	public Iterator<UserPO> getAllUserPO(String login);
 
 }

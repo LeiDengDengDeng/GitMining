@@ -1,6 +1,13 @@
 package gitmining.po;
 
-public class UserPO {
+import java.io.Serializable;
+
+public class UserPO implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -2773302651219018089L;
+	
 	private String login;//µÇÂ½Ãû
 	private String id;
 	private String avatar_url;//Í·Ïñ
